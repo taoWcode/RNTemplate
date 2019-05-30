@@ -11,6 +11,10 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
   
 ### 1.基于版本0.57.7版本构建
 
-    执行 `react-native init ReactNativeTemplate --version 0.57.7`
+    ###### 构建项目 ######
+    `react-native init ReactNativeTemplate --version 0.57.7`
+    ###### 运行项目 ######
+    `cd ReactNativeTemplate`
+    `react-native run-android`
 
 
