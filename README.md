@@ -19,6 +19,7 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
 `cd ReactNativeTemplate`</br>
 `react-native run-android`</br>
 ###### 出现问题 </br>
+
 如果你是第一次使用，恭喜你，你将看到第一个红屏。
 !['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/%7B%60AWODN%5DP7H%7D%40%5D~CX~XHVMV.png "Good luck")
 </br>
