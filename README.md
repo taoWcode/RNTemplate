@@ -29,19 +29,34 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
 这是经典的RN问题，网上搜索会有很多答案。请设置你的项目ip与电脑一致(终端必须同一个wifi)，且设置端口项目运行的端口一致，命令行执行</br>
 `adb shell input keyevent 82`</br>
 
-!['图片']('https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/7T0R)51J4I)I77S_FNW%5DL70.png' "Good luck") </br>
+!['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/%E7%AB%AF%E5%8F%A3%E9%97%AE%E9%A2%981.png "Good luck") </br>
 
 !['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/VVB%7DBG~GG2%5D3P6DPU%24B6UNQ.png "Good luck")  </br>
 
 输入IP:端口,例如192.168.0.167：8081， Reload或者react-native run-android项目运行。</br>
 adb 是安卓相关的命令行，不过多探讨，如果不成功请搜索进行安装。</br>
+
 ----
 </br>
 ### 2.项目UI，使用支付宝的antd库</br>
 
 &nbsp;&nbsp;[官方引入教程](https://rn.mobile.ant.design/docs/react/introduce-cn)</br>
 
-###### 安装</br>
+###### 安装@ant-design/react-native</br>
 `yarn add @ant-design/react-native`</br>
+###### 安装相关的图标库@ant-design/icons-react-native
+`yarn add @ant-design/icons-react-native`</br>
+`react-native link @ant-design/icons-react-native`</br>
+###### 按需加载安装babel-plugin-import
+`yarn add babel-plugin-import --dev`</br>
+然后在项目的根目录的.babelrc 文件添加代码</br>
+```
+    {
+      "plugins":[
+          ["import",{ libraryName: "@ant-design/react-native" }]
+      ]
+    }
+```
+
 
 
