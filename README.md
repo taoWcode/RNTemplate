@@ -50,13 +50,13 @@ adb 是安卓相关的命令行，不过多探讨，如果不成功请搜索进�
 ###### 按需加载安装babel-plugin-import
 `yarn add babel-plugin-import --dev`</br>
 然后在项目的根目录的.babelrc 文件添加代码</br>
-(```)
+```
     {
       "plugins":[
           ["import",{ libraryName: "@ant-design/react-native" }]
       ]
     }
-(```)
+```
 
 
 
