@@ -32,6 +32,7 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
 !['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/7T0R)51J4I)I77S_FNW%5DL70.png "Good luck") </br>
 
 !['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/VVB%7DBG~GG2%5D3P6DPU%24B6UNQ.png "Good luck")  </br>
+
 输入IP:端口,例如192.168.0.167：8081， Reload或者react-native run-android项目运行。</br>
 adb 是安卓相关的命令行，不过多探讨，如果不成功请搜索进行安装。</br>
 ----
