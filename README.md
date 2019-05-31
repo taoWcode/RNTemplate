@@ -11,16 +11,25 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
   
 ### 1.基于版本0.57.7版本构建
 
-###### 构建项目 </br>
-`react-native init ReactNativeTemplate --version 0.57.7` </br>
-###### 运行项目 </br>
-`cd ReactNativeTemplate` </br>
-`react-native run-android` </br>
+###### 构建项目
+`react-native init ReactNativeTemplate --version 0.57.7`
+
+###### 运行项目
+
+`cd ReactNativeTemplate`</br>
+`react-native run-android`</br>
+###### 出现问题 </br>
+
+如果你是第一次使用，恭喜你，你将看到第一个红屏。</br>
+
+!['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/%7B%60AWODN%5DP7H%7D%40%5D~CX~XHVMV.png "Good luck")
 </br>
 ----
 </br>
 ### 2.项目UI，使用支付宝的antd库</br>
+
 &nbsp;&nbsp;[官方引入教程](https://rn.mobile.ant.design/docs/react/introduce-cn)</br>
+
 ###### 安装</br>
 `yarn add @ant-design/react-native`</br>
 
