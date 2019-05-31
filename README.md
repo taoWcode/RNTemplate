@@ -29,7 +29,7 @@ expo构建RN项目，相对稳定，往往把常用的第三方插件包含在ex
 这是经典的RN问题，网上搜索会有很多答案。请设置你的项目ip与电脑一致(终端必须同一个wifi)，且设置端口项目运行的端口一致，命令行执行</br>
 `adb shell input keyevent 82`</br>
 
-!['图片']('https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/7T0R)51J4I)I77S_FNW%5DL70.png' "Good luck") </br>
+!['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/%E7%AB%AF%E5%8F%A3%E9%97%AE%E9%A2%981.png "Good luck") </br>
 
 !['图片'](https://raw.githubusercontent.com/taoWcode/RNTemplate/master/app/assets/RNImg/VVB%7DBG~GG2%5D3P6DPU%24B6UNQ.png "Good luck")  </br>
 
