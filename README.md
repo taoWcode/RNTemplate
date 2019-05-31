@@ -42,7 +42,21 @@ adb 是安卓相关的命令行，不过多探讨，如果不成功请搜索进�
 
 &nbsp;&nbsp;[官方引入教程](https://rn.mobile.ant.design/docs/react/introduce-cn)</br>
 
-###### 安装</br>
+###### 安装@ant-design/react-native</br>
 `yarn add @ant-design/react-native`</br>
+###### 安装相关的图标库@ant-design/icons-react-native
+`yarn add @ant-design/icons-react-native`</br>
+`react-native link @ant-design/icons-react-native`</br>
+###### 按需加载安装babel-plugin-import
+`yarn add babel-plugin-import --dev`</br>
+然后在项目的根目录的.babelrc 文件添加代码</br>
+(```)
+    {
+      "plugins":[
+          ["import",{ libraryName: "@ant-design/react-native" }]
+      ]
+    }
+(```)
+
 
 
