@@ -9,6 +9,9 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import RootStack from './app/routers/AppNavigator';
+
+import SplashScreen from 'react-native-splash-screen';//引入引导图
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -18,6 +21,15 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
+
+  constructor(props){
+    super(props);
+  }
+
+  componentDidMount(){
+       SplashScreen.hide();//隐藏启动图
+  }
+
   render() {
     return (
       <RootStack/>
