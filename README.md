@@ -63,6 +63,10 @@ adb 是安卓相关的命令行，不过多探讨，如果不成功请搜索进�
 &nbsp;&nbsp;[官方引入教程](https://reactnavigation.org/docs/zh-Hans/getting-started.html) </br>
 **这里要注意版本，react-navigation@3.3.0  react-native-gesture-handler@1.1.0,这是适合对应的RN@0.57.7的版本 配置**
 
+### 4.style 样式写法转换 添加插件react-native-sass-to-stylesheet
+&nbsp;&nbsp;[使用教程](https://github.com/kszitt/react-native-sass-to-stylesheet) </br>
+
+
 
 
 
