@@ -1,0 +1,61 @@
+
+/*
+ * flex 相关
+*/
+.flex{
+    flex:1;
+    .row{
+        flex-direction: row;
+        .l{
+            flex-direction: row;
+            align-items: center;
+        }
+        .t{
+            flex-direction: row;
+            justify-content: center;
+        }
+        .lt{
+            flex-direction: row;
+            justify-items: center;
+            justify-content: center;
+        }
+    }
+    .column{
+        .l{
+            align-items: center;
+        }
+        .t{
+            justify-content: center
+        }
+        .lt{
+            justify-content:center;
+            align-items: center;
+        }
+    } 
+}
+
+/*
+* position 相关
+*/
+.ps{
+    .re{
+        position: relative;
+    }
+    .ab{
+        position: absoulte;
+        .top{
+            position: absolute;
+            left:0;
+            top:0;
+            right:0;
+            z-index: 5;
+        }
+        .bottom{
+            position: absolute;
+            left: 0;
+            bottom:0;
+            bottom:0;
+            z-index:5
+        }
+    }
+}

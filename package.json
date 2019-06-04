@@ -19,6 +19,7 @@
     "babel-plugin-import": "^1.11.2",
     "jest": "24.8.0",
     "metro-react-native-babel-preset": "0.54.1",
+    "react-native-sass-to-stylesheet": "^2.1.2",
     "react-test-renderer": "16.6.1"
   },
   "jest": {
