@@ -9,6 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import RootStack from './app/routers/AppNavigator';
+import {Provider as AntProvider} from '@ant-design/react-native';
 
 import SplashScreen from 'react-native-splash-screen';//引入引导图
 
@@ -32,7 +33,9 @@ export default class App extends Component<Props> {
 
   render() {
     return (
-      <RootStack/>
+    
+        <RootStack/>
+      
     );
   }
 }
