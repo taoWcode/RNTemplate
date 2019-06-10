@@ -12,6 +12,9 @@ import Spread from '../pages/Spread/index';//推广
 import Cart from '../pages/Cart/index';//购物车
 import Category from '../pages/Category/index';//分类
 
+//Demo页面
+import ImagePicker from '../pages/Demo/RNImagePicker';//图片上传
+
 const indexIcon = require('../assets/images/nav/Select_home_s.png');
 const indexSelectIcon = require('../assets/images/nav/Select_home.png');
 const categoryIcon = require('../assets/images/nav/Select_know_how_s.png');
@@ -178,7 +181,13 @@ const RootStack = createStackNavigator({
     BottomTab:{
         screen:BottomTabNavigator,
         navigationOptions:()=>({
-            header:null
+            header:null,
+        })
+    },
+    ImagePicker:{
+        screen:ImagePicker,
+        navigationOptions:()=>({
+            title:'ImagePicker'
         })
     }
 })

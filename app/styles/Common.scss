@@ -16,7 +16,7 @@
         }
         .lt{
             flex-direction: row;
-            justify-items: center;
+            align-items: center;
             justify-content: center;
         }
     }
@@ -42,7 +42,7 @@
         position: relative;
     }
     .ab{
-        position: absoulte;
+        position: absolute;
         .top{
             position: absolute;
             left:0;

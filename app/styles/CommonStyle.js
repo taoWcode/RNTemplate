@@ -24,7 +24,7 @@ let styles = {
   },
   flex_row_lt: {
     flexDirection: "row",
-    justifyItems: "center",
+    alignItems: "center",
     justifyContent: "center"
   },
   flex_column_l: {
@@ -41,7 +41,7 @@ let styles = {
     position: "relative"
   },
   ps_ab: {
-    position: "absoulte"
+    position: "absolute"
   },
   ps_ab_top: {
     position: "absolute",
