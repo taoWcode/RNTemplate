@@ -1,0 +1,58 @@
+$header_color:#fff;
+$header_bg:#333;
+
+/*字体大小*/
+$xs_font:24px;
+$sm_font:28px;
+$md_font:32px;
+$lg_font:36px;
+
+$f1c:#333;//第一字体颜色
+$f2c:#666;//第二字体颜色
+$f3c:#999;//第二字体颜色
+
+$thBg:#333;//第一主题色
+
+.goods{
+    .list{
+      
+         background: #efefef;
+        //  height: 500px;
+    }
+    .item{
+        width:368px;
+        margin-bottom: 12px;
+        background: #fff;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        overflow: hidden;
+        .left{
+            margin-right: 12px;
+        }
+        .picture{
+            width:368px;
+            height:368px;
+        }
+        .info{
+            padding:20px;
+            .title{
+                height:56px;
+                line-height: 28px;
+                font-size:24px;
+                color:#333;
+                margin-bottom: 10px;
+            }
+            .price{
+                font-size: 24px;
+                color:#e4393c;
+                margin-right:10px;
+            }
+            .num{
+                
+                font-size:20px;
+                color:#999;
+            }
+        }
+    }
+
+}

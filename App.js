@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View,StatusBar} from 'react-native';
 import RootStack from './app/routers/AppNavigator';
 import {Provider as AntProvider} from '@ant-design/react-native';
 
@@ -21,10 +21,26 @@ const instructions = Platform.select({
 });
 
 type Props = {};
+
+if(!__DEV__){
+  global.console = {
+      info:()=>{},
+      log:()=>{},
+      warn:()=>{},
+      error:()=>{}
+  }
+}
 export default class App extends Component<Props> {
 
   constructor(props){
     super(props);
+  }
+
+  componentWillMount(){
+    StatusBar.setBackgroundColor('rgba(0,0,0,.1)');
+    if(Platform.OS == 'android'){
+        StatusBar.setTranslucent(true);
+    }
   }
 
   componentDidMount(){

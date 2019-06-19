@@ -1,0 +1,137 @@
+$header_color:#fff;
+$header_bg:#333;
+
+/*字体大小*/
+$xs_font:24px;
+$sm_font:28px;
+$md_font:32px;
+$lg_font:36px;
+
+$f1c:#333;//第一字体颜色
+$f2c:#666;//第二字体颜色
+$f3c:#999;//第二字体颜色
+
+$thBg:#333;//第一主题色
+
+.fheader{
+    height:44;
+    .bg{
+        background: #e4393c;
+    }
+    .menu,.user{
+        width:44;
+        height:44;
+    }
+    .user{
+        margin-right: 20px;
+        .text{
+            font-size:$xs_font;
+            color:#fff;
+        }
+        .avatar{
+            width:32;
+            height:32;
+            border-radius:16;
+            overflow: hidden;
+            .img{
+                width:32;
+                height:32;
+            }
+        }
+    }
+    .search{
+        margin-right: 10;
+        height: 30;
+        padding:5;
+        border-radius: 15;
+        background: #fff;
+        .bg{
+            background: #f5f5f5;
+        }
+        .logo{
+            width:48;
+            height:16;
+            margin-right: 5;
+        }
+        .bar{
+            padding-left:5;
+            border-left:1px solid #aaa;
+        }
+        .placeholder{
+            color:#aaa;
+            font-size:12;
+            padding-left: 10;
+        }
+    }
+}
+
+.navlist{
+    padding:20px 0;
+    .item{
+        width:20%;
+        overflow: hidden;
+        .icon{
+            width:80px;
+            height:80px;
+            margin:24px auto 0;
+        }
+        .label{
+            font-size: $xs_font;
+            color:$f1c;
+            text-align: center;
+            margin-top:12px;
+        }
+    }
+}
+
+.banner{
+    .header{
+        .img{
+            width:750px;
+            height:70px;
+        }
+    }
+    .body{
+        .item{
+            padding:0 10px;
+            width:50%;
+            border-right:1px solid rgba(112, 112, 112, 0.15);
+            border-bottom:1px solid rgba(112, 112, 112, 0.15);
+            .title{
+                font-size: $md_font;
+                color:$f1c;
+            }
+            .tip{
+                font-size:$xs_font;
+                color:#648EFF;
+            }
+            .img{
+                width:310px;
+                height:130px;
+                margin:20px auto 10px;
+            }
+            .small{
+                width:25%;
+                .img{
+                    width:128px;
+                    height:128px;
+                }
+            }
+        }
+        
+    }
+}
+
+.recommend{
+    background: #f5f5f5;
+    .header{
+        padding:40px;
+       
+            .text{
+                font-size: $md_font;
+                color:$f2c;
+                margin-left:10px;
+            }
+       
+    }
+}

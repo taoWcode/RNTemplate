@@ -3,7 +3,7 @@ const pixelRatio = PixelRatio.get();
 let {width, height} =  Dimensions.get('window');
 
 function getAdaptation(num){
-  let unitWidth = width / 1080; // 1080 => UI设计图的宽度
+  let unitWidth = width / 750; // 750 => UI设计图的宽度
   return parseFloat((num*unitWidth).toFixed(2));
 }
 
@@ -26,6 +26,10 @@ let styles = {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center"
+  },
+  flex_row_wrap: {
+    flexDirection: "row",
+    flexWrap: "wrap"
   },
   flex_column_l: {
     alignItems: "center"

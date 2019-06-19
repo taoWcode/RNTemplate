@@ -7,14 +7,7 @@ function getAdaptation(num){
   return parseFloat((num*unitWidth).toFixed(2));
 }
 
-let styles = {
-  header_bg: {
-    backgroundColor: "#fff"
-  },
-  header_color: {
-    color: "#333}}/*字体大小*"
-  }
-};
+let styles = {};
 
 const styleSheet = StyleSheet.create(styles);
 

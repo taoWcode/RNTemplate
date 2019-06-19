@@ -1,0 +1,46 @@
+$header_color:#fff;
+$header_bg:#333;
+
+/*字体大小*/
+$xs_font:24px;
+$sm_font:28px;
+$md_font:32px;
+$lg_font:36px;
+
+$f1c:#333;//第一字体颜色
+$f2c:#666;//第二字体颜色
+
+$thBg:#333;//第一主题色
+
+.header{
+    flex-direction: row;
+    box-shadow: 1px 0 3px .1 #000;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    .left,.right{
+        width:48;
+        height:48;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        .text{
+            font-size: $md_font;
+            color:$f2c;
+            text-align:center;
+            line-height: 48
+        }
+       
+    }
+    .middle{
+        flex:1;
+        height:48;
+        .text{
+            font-size:$md_font;
+            color:$f1c;
+            line-height: 48;
+            text-align: center;
+            overflow: hidden;
+        
+        }
+    }
+}

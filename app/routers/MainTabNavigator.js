@@ -14,6 +14,7 @@ import Category from '../pages/Category/index';//分类
 
 //Demo页面
 import ImagePicker from '../pages/Demo/RNImagePicker';//图片上传
+import RNScrollView from '../pages/Demo/RNScrollView';//滚动视图
 
 const indexIcon = require('../assets/images/nav/Select_home_s.png');
 const indexSelectIcon = require('../assets/images/nav/Select_home.png');
@@ -188,6 +189,12 @@ const RootStack = createStackNavigator({
         screen:ImagePicker,
         navigationOptions:()=>({
             title:'ImagePicker'
+        })
+    },
+    RNScrollView:{
+        screen:RNScrollView,
+        navigationOptions:()=>({
+            header:null
         })
     }
 })

@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Header from '../../components/Header';
 import {
     View,
     Text,
@@ -11,7 +12,8 @@ class Cart extends Component{
 
     render(){
         return (
-            <View style = {{flex:1,justifyContent:'center'}}>
+            <View style = {{flex:1}}>
+                <Header title="购物车"/>
                 <Text style = {{textAlign:'center'}}>购物车</Text>
             </View>
         )

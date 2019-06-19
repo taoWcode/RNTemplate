@@ -23,8 +23,17 @@ class Spread extends Component{
                             this.props.navigation.navigate('ImagePicker');
                         }}
                     >图片上传Demo</Button>
-                    </WingBlank>
-                <WhiteSpace/>
+                    <WhiteSpace/>
+                    <WhiteSpace/>
+                        <Button 
+                            type="ghost"
+                            onPress = {()=>{
+                                this.props.navigation.navigate('RNScrollView');
+                            }}
+                        >滚动视图Demo</Button>
+                    <WhiteSpace/>
+                </WingBlank>
+                
             </View>
         )
     }

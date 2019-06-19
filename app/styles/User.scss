@@ -1,0 +1,114 @@
+$header_color:#fff;
+$header_bg:#333;
+
+/*字体大小*/
+$xs_font:24px;
+$sm_font:28px;
+$md_font:32px;
+$lg_font:36px;
+
+$f1c:#333;//第一字体颜色
+$f2c:#666;//第二字体颜色
+$f3c:#999;//第二字体颜色
+
+$thBg:#333;//第一主题色
+
+.header{
+    padding:40px 30px;
+    background: #f6f6f6;
+    .info{
+        .left{
+            width:88px;
+            height:88px;
+            border-radius:44px;
+            overflow: hidden;
+        }
+        .picture{
+            width:88px;
+            height:88px;
+        }
+        .right{
+            margin-left: 30px;
+            justify-content: space-around;
+        }
+        .name{
+            font-size:$lg_font;
+            color:$f1c;
+        }
+        .level{
+            font-size:$xs_font;
+            color:$f3c;
+        }
+    }
+    .link{
+        margin-left:30px;
+        .text{
+            font-size:$xs_font;
+            color:$f3c;
+        }
+        
+    }
+}
+
+.main{
+    padding:40px 30px;
+}
+
+.order{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+    border:1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    padding:40px 0;
+    .left{
+        overflow: hidden;
+    }
+    .right{
+        flex-shrink: 0;
+        padding:0 24px;
+        width:100px;
+        height:90px;
+        border-left:1px solid #ddd;
+        .text{
+            font-size: 24px;
+            color:$f3c;
+        }
+    }
+    .item{
+        .value{
+            font-size: $md_font;
+            color:$f2c;
+        }
+        .label{
+            font-size: $xs_font;
+            color:$f2c;
+            margin-top:10px;
+        }
+    }
+}
+
+.export{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+    border:1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    .item{
+        border-right:1px solid #ddd;
+        border-bottom:1px solid #ddd;
+        padding:30px 10px;
+        width:33.33%;
+
+        .icon{
+            width:36px;
+            height:36px;
+            margin:0 auto;
+        }
+        .label{
+            font-size: $xs_font;
+            color:$f2c;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+    
+}
