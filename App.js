@@ -44,7 +44,7 @@ export default class App extends Component<Props> {
   }
 
   componentDidMount(){
-    console.log('我的提交3');
+    console.log('我的提交4');
     SplashScreen.hide();//隐藏启动图
   }
 
