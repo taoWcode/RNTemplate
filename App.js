@@ -37,6 +37,7 @@ export default class App extends Component<Props> {
   }
 
   componentWillMount(){
+    console.log('我的提交2');
     StatusBar.setBackgroundColor('rgba(0,0,0,.1)');
     if(Platform.OS == 'android'){
         StatusBar.setTranslucent(true);
